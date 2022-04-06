@@ -11,5 +11,4 @@ Davidson Weather: https://api.weather.gov/points/35.499302,-80.848686
 
 GET Davidson Weather request: https://api.weather.gov/gridpoints/GSP/116,76/forecast
 
-Python code to turn weather data into readable python file: 
-
+[Python Code that turns weather data into readable file](https://github.com/malloryjustis/dig333-final-project/blob/main/weatherdatafromapi.py)
