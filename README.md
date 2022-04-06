@@ -11,6 +11,8 @@ Davidson Weather: https://api.weather.gov/points/35.499302,-80.848686
 
 GET Davidson Weather request: https://api.weather.gov/gridpoints/GSP/116,76/forecast
 
+Installed [Postman](https://web.postman.co/onboarding/user) onto computer to read data.
+
 [Python Code that turns weather data into readable file](https://github.com/malloryjustis/dig333-final-project/blob/main/weatherdatafromapi.py)
 
-## Milestone 2: Create Python Code that will turn connect weather data to GPIO for output
+## Milestone 2: Create Python Code that Will Connect Weather Data to GPIO for Output
