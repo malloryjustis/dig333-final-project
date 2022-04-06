@@ -11,7 +11,7 @@ Davidson Weather: https://api.weather.gov/points/35.499302,-80.848686
 
 GET Davidson Weather request: https://api.weather.gov/gridpoints/GSP/116,76/forecast
 
-Installed [Postman](https://web.postman.co/onboarding/user) onto computer to read data.
+Installed [JSON](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) Chrome browser extension and [Postman](https://web.postman.co/onboarding/user) onto computer to read data.
 
 [Python Code that turns weather data into readable file](https://github.com/malloryjustis/dig333-final-project/blob/main/weatherdatafromapi.py)
 
