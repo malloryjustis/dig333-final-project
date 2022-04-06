@@ -14,5 +14,6 @@ GET Davidson Weather request: https://api.weather.gov/gridpoints/GSP/116,76/fore
 Installed [JSON](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) Chrome browser extension and [Postman](https://web.postman.co/onboarding/user) onto computer to read data.
 
 [Python Code that turns weather data into readable file](https://github.com/malloryjustis/dig333-final-project/blob/main/weatherdatafromapi.py)
+[Python Code that narrows down weather data to current weather](https://github.com/malloryjustis/dig333-final-project/blob/main/currentweatherdataonly.py)
 
 ## Milestone 2: Create Python Code that Will Connect Weather Data to GPIO for Output
