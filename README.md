@@ -21,6 +21,6 @@ Installed [JSON](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbip
 
 The following screenshot shows the general code outline for turning the weather data dictionary into GPIO output:
 
-<img src="gpiocodebeforegpiosettings.jpg" alt="code outline" style="float: left; margin-right: 7px;" />
+<img src="gpiocodebeforegpiosettings.jpg" alt="code outline" style="float: left; margin-right: 10px;" />
 
 [GPIO Code](https://github.com/malloryjustis/dig333-final-project/blob/main/python_codes/weather_to_gpio.py)
