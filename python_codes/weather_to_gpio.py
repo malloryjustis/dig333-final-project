@@ -2,6 +2,7 @@ import currentweatherdataonly as c
 from pprint import pprint
 
 import RPi.GPIO as GPIO
+from gpiozero import Motor
 
 current_weather = c.current_weather_data_only()
 
@@ -12,14 +13,13 @@ if current_weather['isDaytime'] == True:
 else:
     GPIO.output(7,GPIO.HIGH)
     print('porch ON')
-
-
+    
 #fan turning on/off
-if current_weather['temperature'] > 69:
-    #turn fan on
+motor = Motor(forward=23)
+while current_weather['temperature'] > 69:
+    #turn DC fan on
+    motor.forward(0.5)
     print('fan ON')
-else:
-    print('fan OFF')
 
 #fireplace turning on/off
 if current_weather['temperature'] < 46:
@@ -28,7 +28,6 @@ if current_weather['temperature'] < 46:
     print('fireplace ON')
 else:
     print('fireplace OFF')
-
 
 #blinds
 if 'Sunny' or 'Clear' in current_weather['shortForecast']:
