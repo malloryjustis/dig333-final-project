@@ -9,7 +9,7 @@ National Weather Service API: https://api.weather.gov/
 
 Davidson Weather: https://api.weather.gov/points/35.499302,-80.848686
 
-GET Davidson Weather request: https://api.weather.gov/gridpoints/GSP/116,76/forecast
+GET Davidson Weather request: https://api.weather.gov/gridpoints/GSP/116,76/forecast/hourly
 
 Installed [JSON](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) Chrome browser extension and [Postman](https://web.postman.co/onboarding/user) onto computer to read data.
 
