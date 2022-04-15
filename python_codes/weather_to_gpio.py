@@ -8,6 +8,8 @@ GPIO.setmode(GPIO.BCM)
 current_weather = c.current_weather_data_only()
 
 #porch lights turning on/off
+GPIO.setup(7, GPIO.OUT)
+
 if current_weather['isDaytime'] == True:
     #porch lights off
     print('porch OFF')
