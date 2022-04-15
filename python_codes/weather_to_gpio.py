@@ -3,6 +3,7 @@ from pprint import pprint
 
 import RPi.GPIO as GPIO
 from gpiozero import Motor
+GPIO.setmode(GPIO.BCM)
 
 current_weather = c.current_weather_data_only()
 
