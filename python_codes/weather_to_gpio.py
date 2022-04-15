@@ -4,6 +4,7 @@ from pprint import pprint
 import RPi.GPIO as GPIO
 from gpiozero import Motor
 GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
 
 current_weather = c.current_weather_data_only()
 
@@ -12,6 +13,7 @@ GPIO.setup(7, GPIO.OUT)
 
 if current_weather['isDaytime'] == True:
     #porch lights off
+    GPIO.output(7,GPIO.LOW)
     print('porch OFF')
 else:
     GPIO.output(7,GPIO.HIGH)
