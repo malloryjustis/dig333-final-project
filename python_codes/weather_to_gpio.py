@@ -27,11 +27,14 @@ while current_weather['temperature'] > 69:
     print('fan ON')
 
 #fireplace turning on/off
+GPIO.setup(11, GPIO.OUT)
+
 if current_weather['temperature'] < 46:
     #turn fireplace on
     GPIO.output(11,GPIO.HIGH)
     print('fireplace ON')
 else:
+    GPIO.output(11,GPIO.LOW)
     print('fireplace OFF')
 
 #blinds
