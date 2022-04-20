@@ -2,7 +2,7 @@ import currentweatherdataonly as c
 from pprint import pprint
 
 import RPi.GPIO as GPIO
-#from gpiozero import Motor
+from gpiozero import Motor
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
@@ -20,10 +20,9 @@ else:
     print('porch ON')
     
 #fan turning on/off
-#motor = Motor(forward=23)
 while current_weather['temperature'] > 69:
     #turn DC fan on
-    #motor.forward(0.5)
+    GPIO.output(13,GPIO.HIGH)
     print('fan ON')
 
 #fireplace turning on/off
