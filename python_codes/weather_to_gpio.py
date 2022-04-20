@@ -20,6 +20,8 @@ else:
     print('porch ON')
     
 #fan turning on/off
+GPIO.setup(13, GPIO.OUT)
+
 while current_weather['temperature'] > 69:
     #turn DC fan on
     GPIO.output(13,GPIO.HIGH)
