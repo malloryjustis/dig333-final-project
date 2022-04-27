@@ -27,6 +27,10 @@ if current_weather['temp'] > 69:
     #turn DC fan on
     GPIO.output(13,GPIO.HIGH)
     print('fan ON')
+else:
+    #turn DC fan off
+    GPIO.output(13,GPIO.LOW)
+    print('fan OFF')
 
 #fireplace turning on/off
 GPIO.setup(15, GPIO.OUT)
