@@ -23,4 +23,9 @@ The following screenshot shows the general code outline for turning the weather 
 
 <img src="gpiocodebeforegpiosettings.jpg" alt="code outline" style="float: left; margin-right: 10px;" />
 
-[GPIO Code](https://github.com/malloryjustis/dig333-final-project/blob/main/python_codes/weather_to_gpio.py)
+Here is the [GPIO Code](https://github.com/malloryjustis/dig333-final-project/blob/main/python_codes/weather_to_gpio.py) that turns the data in the Python code into an output for the hardware.
+
+## Milestone 3: Create Hardware System that Works with Python Code
+
+<img src=photos/"hardware_setup.jpg" alt="hardware setup" style="float: left; margin-right: 10px;" />
+
