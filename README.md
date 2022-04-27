@@ -43,5 +43,11 @@ Using [Crontab](https://crontab.guru/#@hourly) to make code run hourly:
 
 <img src="photos/crontabrunning.jpg" alt="setting up crontab" style="float: left; margin-right: 10px;" />
 
+## Milestone 4: Designing the House
 
+Found Adobe Illustrator vector file for download from an [Etsy shop](https://www.etsy.com/listing/786887665/16-miniature-cabin-type-02vector-file?click_key=8ff4772b4ab388e8ccdbe30313a731a55b073fed%3A786887665&click_sum=9d484603&ref=shop_home_active_37) to laser engrave a tiny house.
+
+<img src="tinyhouse_floorplans.jpg" alt="Floor Plan" style="float: left; margin-right: 10px;" />
+
+Using this file, adding vector lines for wiring the house (ex: the porch light).
 
