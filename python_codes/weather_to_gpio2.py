@@ -23,7 +23,7 @@ else:
 #fan turning on/off
 GPIO.setup(13, GPIO.OUT)
 
-while current_weather['temp'] > 69:
+if current_weather['temp'] > 69:
     #turn DC fan on
     GPIO.output(13,GPIO.HIGH)
     print('fan ON')
