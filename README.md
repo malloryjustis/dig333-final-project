@@ -27,8 +27,21 @@ Here is the [GPIO Code](https://github.com/malloryjustis/dig333-final-project/bl
 
 ## Milestone 3: Create Hardware System that Works with Python Code
 
+Hardware setup:
+
 <img src="photos/hardware_setup.jpg" alt="hardware setup" style="float: left; margin-right: 10px;" />
 
-<img src="photos/porchlight.jpg" alt="porch light on" style="float: left; margin-right: 10px;" />
+Running code manually to figure out bugs:
+
 <img src="photos/codinghardware.jpg" alt="coding hardware" style="float: left; margin-right: 10px;" />
+
+Porch light turning on at midnight when the code is run:
+
+<img src="photos/porchlight.jpg" alt="porch light on" style="float: left; margin-right: 10px;" />
+
+Using [Crontab](https://crontab.guru/#@hourly) to make code run hourly:
+
+<img src="photos/crontabrunning.jpg" alt="setting up crontab" style="float: left; margin-right: 10px;" />
+
+
 
