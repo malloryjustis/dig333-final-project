@@ -55,5 +55,5 @@ Found Adobe Illustrator vector file for download from an [Etsy shop](https://www
 
 Laser cutting the file in the makerspace:
 
-<img src="laserengraver.jpg" alt="Floor Plan" style="float: left; margin-right: 10px;" />
+<img src="laserengraver.jpg" alt="Laser Engraving" style="float: left; margin-right: 10px;" />
 
