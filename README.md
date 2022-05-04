@@ -45,7 +45,7 @@ Using [Crontab](https://crontab.guru/#@hourly) to make code run hourly:
 
 ## Fixes
 
-The Weather API that I was using was unreliable; servers kept going down. So I decided to use a different [API](https://api.weatherusa.net/v1/forecast?q=35.227085,-80.843124&daily=0&units=e&maxtime=7d). The codes are still the same, just with a different link. All new python files have the same names at the previous ones, just with a 2 at the end.
+The Weather API that I was using was unreliable; servers kept going down. So I decided to use a different [API](https://api.weatherusa.net/v1/forecast?q=35.227085,-80.843124&daily=0&units=e&maxtime=7d). The codes are still the same, just with a different link and different dictionary keys. All new python files have the same names at the previous ones, just with a 2 at the end.
 
 ## Milestone 4: Designing the House
 
