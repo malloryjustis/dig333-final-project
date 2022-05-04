@@ -43,11 +43,17 @@ Using [Crontab](https://crontab.guru/#@hourly) to make code run hourly:
 
 <img src="photos/crontabrunning.jpg" alt="setting up crontab" style="float: left; margin-right: 10px;" />
 
+## Fixes
+
+The Weather API that I was using was unreliable; servers kept going down. So I decided to use a different [API](https://api.weatherusa.net/v1/forecast?q=35.227085,-80.843124&daily=0&units=e&maxtime=7d). The codes are still the same, just with a different link. All new python files have the same names at the previous ones, just with a 2 at the end.
+
 ## Milestone 4: Designing the House
 
 Found Adobe Illustrator vector file for download from an [Etsy shop](https://www.etsy.com/listing/786887665/16-miniature-cabin-type-02vector-file?click_key=8ff4772b4ab388e8ccdbe30313a731a55b073fed%3A786887665&click_sum=9d484603&ref=shop_home_active_37) to laser engrave a tiny house.
 
 <img src="tinyhouse_floorplans.jpg" alt="Floor Plan" style="float: left; margin-right: 10px;" />
 
-Using this file, adding vector lines for wiring the house (ex: the porch light).
+Laser cutting the file in the makerspace:
+
+<img src="laserengraver.jpg" alt="Floor Plan" style="float: left; margin-right: 10px;" />
 
