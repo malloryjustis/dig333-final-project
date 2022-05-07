@@ -43,6 +43,8 @@ else:
     print('fireplace OFF')
 
 #solar panel
+GPIO.setup(29, GPIO.OUT)
+
 if 'Few Clouds' or 'Clear' or "Partly Cloudy" in current_weather['wx_str']:
     #solar on
     GPIO.output(29, GPIO.HIGH)
