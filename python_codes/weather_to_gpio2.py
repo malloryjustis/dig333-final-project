@@ -2,7 +2,6 @@ import currentweatherdataonly2 as c
 from pprint import pprint
 
 import RPi.GPIO as GPIO
-from gpiozero import Motor
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
@@ -43,10 +42,12 @@ else:
     GPIO.output(15,GPIO.LOW)
     print('fireplace OFF')
 
-#blinds #need to adjust this code for new api
-if 'Sunny' or 'Clear' in current_weather['shortForecast']:
-    #shades down
-    print('shades DOWN')
+#solar panel
+if 'Few Clouds' or 'Clear' or "Partly Cloudy" in current_weather['wx_str']:
+    #solar on
+    GPIO.output(29, GPIO.HIGH)
+    print('solar ON')
 else:
-    print('shades UP')
+    GPIO.output(29, GPIO.LOW)
+    print('solar OFF')
 
