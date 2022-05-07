@@ -34,7 +34,7 @@ else:
 #fireplace turning on/off
 GPIO.setup(15, GPIO.OUT)
 
-if current_weather['temp'] < 70:
+if current_weather['temp'] < 46:
     #turn fireplace on
     GPIO.output(15,GPIO.HIGH)
     print('fireplace ON')
