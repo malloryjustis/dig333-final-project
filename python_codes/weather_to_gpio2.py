@@ -45,7 +45,7 @@ else:
 #solar panel
 GPIO.setup(29, GPIO.OUT)
 
-if 'Few Clouds' or 'Clear' or "Partly Cloudy" in current_weather['wx_str']:
+if 'Few Clouds' or 'Clear' or "Partly Cloudy" in current_weather['wx_str'] and current_weather['night'] == False:
     #solar on
     GPIO.output(29, GPIO.HIGH)
     print('solar ON')
