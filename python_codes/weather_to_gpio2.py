@@ -15,6 +15,16 @@ if current_weather['night'] == False:
     #porch lights off
     GPIO.output(11,GPIO.LOW)
     print('porch OFF')
+    #solar panel
+    GPIO.setup(29, GPIO.OUT)
+
+    if 'Few Clouds' or 'Clear' or "Partly Cloudy" in current_weather['wx_str']:
+        #solar on
+        GPIO.output(29, GPIO.HIGH)
+        print('solar ON')
+    else:
+        GPIO.output(29, GPIO.LOW)
+        print('solar OFF')
 else:
     GPIO.output(11,GPIO.HIGH)
     print('porch ON')
@@ -42,14 +52,5 @@ else:
     GPIO.output(15,GPIO.LOW)
     print('fireplace OFF')
 
-#solar panel
-GPIO.setup(29, GPIO.OUT)
 
-if 'Few Clouds' or 'Clear' or "Partly Cloudy" in current_weather['wx_str'] and current_weather['night'] == False:
-    #solar on
-    GPIO.output(29, GPIO.HIGH)
-    print('solar ON')
-else:
-    GPIO.output(29, GPIO.LOW)
-    print('solar OFF')
 
