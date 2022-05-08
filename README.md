@@ -93,6 +93,14 @@ I manually turned on the fireplace by changing the code to show what it would lo
 
 [Creator Statement](https://github.com/malloryjustis/dig333-final-project/blob/main/creator_statement.MD)
 
+## Reflection
+
+I had such a fun time making this project! I learned a lot of useful information when researching APIs, and wiring the electronics allowed me to apply what I learned in the Platt Experiements. I had a lot of fun picking out the aesthetic of the house and I definitely wish I could keep this and put it on my desk I'm definitely going to have to buy my own Pi and DC fan so I can keep it running!
+
+One thing that was evident through the project was my design process. I've always preferred to have a general outline of what I'm going to do and base my next steps on how the previous ones worked out (this also makes it more fun because I get to plan as I go along). For example, I didn't decide on the aesthetic of the house until I got the hardware portion completed, so I could make sure the hardware would fit in the house. I do know that this is a weakness, because if I were to pitch a project idea to a company or employer in the future, I would need a much more solidified plan if they would consider my idea. I do find this dyamic work process to be an advantage when it comes to bugs and issues along the way, because instead of having to change a previously solidified idea if something doesn't work, I can just adjust my ideas and plan around the issue.
+
+This was by far my favorite class I've ever taken at Davidson and I don't picture another one beating it! I will definitely be taking more digital studies classes (maybe minoring if I can find the room in my schedule to)! If I could take this course again I definitely would. 
+
 ## Sources:
 
 [Links to Project Resources](https://github.com/malloryjustis/dig333-final-project/blob/main/sources.MD)
