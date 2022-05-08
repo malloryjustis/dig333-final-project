@@ -79,9 +79,7 @@ Final House:
 
 If I were to permanently keep the project, I would have glued the Pi in its case to the back wall of the house, but since I do not get to keep the Pi, it is just set right behind the house on the table in the photos.
 
-I came to monitor the house throughout the day to make sure crontab was working. Here is the house during a cloudy day when it was above 70 degrees:
-
-![](photos/fanon.mov)
+I came to monitor the house throughout the day to make sure crontab was working. Here is a [video](https://github.com/malloryjustis/dig333-final-project/blob/main/photos/fanon.mov) of the house during a cloudy day when it was above 70 degrees.
 
 Light is on at night:
 
