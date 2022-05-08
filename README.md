@@ -45,15 +45,15 @@ Using [Crontab](https://crontab.guru/#@hourly) to make code run hourly:
 
 ## Fixes
 
-The Weather API that I was using was unreliable; servers kept going down. So I decided to use a different [API](https://api.weatherusa.net/v1/forecast?q=35.227085,-80.843124&daily=0&units=e&maxtime=7d). The codes are still the same, just with a different link and different dictionary keys. All new python files have the same names at the previous ones, just with a 2 at the end.
+The Weather API that I was using was unreliable; servers kept going down. So I decided to use a different [API](https://api.weatherusa.net/v1/forecast?q=35.227085,-80.843124&daily=0&units=e&maxtime=7d). The codes are still the same, just with a different link and different dictionary keys. All new python files have the same names at the previous ones, just with a 2 at the end. The codes are in the [Python Codes](https://github.com/malloryjustis/dig333-final-project/tree/main/python_codes) folder.
 
-I realized that if I was going to create blinds with a servo motor, if the blinds shut, it would cover the fireplace and the inside light, so I decided to add a solar panel instead. The panel lights up if it is sunny or partly cloudy, and only during the day. This also works better with the aethetics of the house; it is more futuristic. It adds another color as well.
+I realized that if I was going to create blinds with a servo motor, if the blinds shut, it would cover the fireplace and the inside light, so I decided to add a solar panel instead. The panel lights up if it is sunny or partly cloudy during the day. This also works better with the aethetics of the house; it is more futuristic. It adds another color as well.
 
-I created a solar pael with an array of mini blue LEDs:
+I created a solar panel with an array of mini blue LEDs:
 
 <img src="photos/solarpanelbreadboard.jpg" alt="Solar Panel Breadboard" style="float: left; margin-right: 10px;" />
 
-<img src="solarpanelon.jpg" alt="Solar Panel Turning On" style="float: left; margin-right: 10px;" />
+<img src="photos/solarpanelon.jpg" alt="Solar Panel Turning On" style="float: left; margin-right: 10px;" />
 
 ## Milestone 4: Designing the House
 
@@ -81,12 +81,12 @@ If I were to permanently keep the project, I would have glued the Pi in its case
 
 I came to monitor the house throughout the day to make sure crontab was working. Here is the house during a cloudy day when it was above 70 degrees:
 
-![](fanon.mov)
+![](photos/fanon.mov)
 
 Light is on at night:
 
-<img src="nightlighton.jpg" alt="Night Light On" style="float: left; margin-right: 10px;" />
+<img src="photos/nightlighton.jpg" alt="Night Light On" style="float: left; margin-right: 10px;" />
 
 I manually turned on the fireplace by changig the code to show what it would look like at night:
 
-<img src="fireplaceonnight".jpg" alt="Fire Place on at Night" style="float: left; margin-right: 10px;" />
+<img src="photos/fireplaceonnight".jpg" alt="Fire Place on at Night" style="float: left; margin-right: 10px;" />
