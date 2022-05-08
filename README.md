@@ -89,4 +89,4 @@ Light is on at night:
 
 I manually turned on the fireplace by changig the code to show what it would look like at night:
 
-<img src="photos/fireplaceonnight".jpg" alt="Fire Place on at Night" style="float: left; margin-right: 10px;" />
+<img src="photos/fireplaceonnight.jpg" alt="Fire Place on at Night" style="float: left; margin-right: 10px;" />
