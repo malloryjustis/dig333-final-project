@@ -89,6 +89,10 @@ I manually turned on the fireplace by changing the code to show what it would lo
 
 <img src="photos/fireplaceonnight.jpg" alt="Fire Place on at Night" style="float: left; margin-right: 10px;" />
 
+## Creator Statement:
+
+[Creator Statement](https://github.com/malloryjustis/dig333-final-project/blob/main/creator_statement.MD)
+
 ## Sources:
 
 [Links to Project Resources](https://github.com/malloryjustis/dig333-final-project/blob/main/sources.MD)
