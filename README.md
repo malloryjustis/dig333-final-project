@@ -47,6 +47,14 @@ Using [Crontab](https://crontab.guru/#@hourly) to make code run hourly:
 
 The Weather API that I was using was unreliable; servers kept going down. So I decided to use a different [API](https://api.weatherusa.net/v1/forecast?q=35.227085,-80.843124&daily=0&units=e&maxtime=7d). The codes are still the same, just with a different link and different dictionary keys. All new python files have the same names at the previous ones, just with a 2 at the end.
 
+I realized that if I was going to create blinds with a servo motor, if the blinds shut, it would cover the fireplace and the inside light, so I decided to add a solar panel instead. The panel lights up if it is sunny or partly cloudy, and only during the day. This also works better with the aethetics of the house; it is more futuristic. It adds another color as well.
+
+I created a solar pael with an array of mini blue LEDs:
+
+<img src="photos/solarpanelbreadboard.jpg" alt="Solar Panel Breadboard" style="float: left; margin-right: 10px;" />
+
+<img src="solarpanelon.jpg" alt="Solar Panel Turning On" style="float: left; margin-right: 10px;" />
+
 ## Milestone 4: Designing the House
 
 Found Adobe Illustrator vector file for download from an [Etsy shop](https://www.etsy.com/listing/786887665/16-miniature-cabin-type-02vector-file?click_key=8ff4772b4ab388e8ccdbe30313a731a55b073fed%3A786887665&click_sum=9d484603&ref=shop_home_active_37) to laser engrave a tiny house.
@@ -57,3 +65,28 @@ Laser cutting the file in the makerspace:
 
 <img src="photos/laserengraver.jpg" alt="Laser Engraving" style="float: left; margin-right: 10px;" />
 
+Soldering the electronics to permanent breadboards:
+
+<img src="photos/semipermanentbreadboards.jpg" alt="Permanent Breadboards" style="float: left; margin-right: 10px;" />
+
+I attached the electronics with hot glue and spray painted the house so everything was white except for the LEDs and the fan.
+
+<img src="photos/spraypaint.jpg" alt="Spray Painting the House" style="float: left; margin-right: 10px;" />
+
+Final House:
+
+<img src="photos/housefrontview.jpg" alt="House Front View" style="float: left; margin-right: 10px;" />
+
+If I were to permanently keep the project, I would have glued the Pi in its case to the back wall of the house, but since I do not get to keep the Pi, it is just set right behind the house on the table in the photos.
+
+I came to monitor the house throughout the day to make sure crontab was working. Here is the house during a cloudy day when it was above 70 degrees:
+
+![](fanon.mov)
+
+Light is on at night:
+
+<img src="nightlighton.jpg" alt="Night Light On" style="float: left; margin-right: 10px;" />
+
+I manually turned on the fireplace by changig the code to show what it would look like at night:
+
+<img src="fireplaceonnight".jpg" alt="Fire Place on at Night" style="float: left; margin-right: 10px;" />
