@@ -2,7 +2,7 @@
   
   The project is useful because it give the user information they might need for the day. For example, if the house is sitting on someone's desk, and they notice the fan is on when they wake up in the morning, they might wear shorts that day. If the fireplace is on, they might decide to wear a jacket. Also, if the solar panel is on, the user might decide to bring sunglasses or a hat out with them.
   
-  The project is also useless, because all of the information given by the tiny house could easily be found out by stepping outside. The project is a reflection of how in this age, we have access to so much information through our devices that we forget we can observe. We check weather apps in the morning instead of opening our window. The project turns the internet data that we read instead of looking at our surroundings into an observable visual. 
+  The project is also useless, because all of the information given by the tiny house could easily be found out by stepping outside. The project is a reflection of how in this age, we have access to so much information through our devices that we forget we can observe. We check weather apps in the morning instead of opening our window. The project turns the internet data that we read instead of looking at our surroundings into an observable visual. It creates an ironic bridge between our own observations and checking what our technology tells us. 
   
   While creating this project, I learned a lot about APIs, and realized how useful APIs are in turning software data into hardware outputs. I also found that modular coding became very important, because when I had to change my API, I could easily just change the link in some of my API coding files.
   
